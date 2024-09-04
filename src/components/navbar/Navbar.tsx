@@ -19,11 +19,11 @@ function Navbar() {
                     <Link to = '/categorias'>Categorias</Link>
                 </li>
                 <li className="hover:underline cursor-pointer">
-                    <Link to = '/cadastrarCategorias'>Cadastrar Categoria</Link>
+                    <Link to = '/cadastrarCategoria'>Cadastrar Categoria</Link>
                 </li>
             </ul>
         </nav>
-        
+
     </header>
   )
 }

@@ -44,7 +44,7 @@ function FormCategoria() {
         try {
         await atualizar(`/categorias`, categoria, setCategoria)
 
-        alert('Categoria atualizado com sucesso')
+        alert('Categoria atualizada com sucesso')
 
         } catch (error: any) {
         alert('Erro ao atualizar o Categoria')
